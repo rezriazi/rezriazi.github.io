@@ -7,9 +7,6 @@ import Apps from "./Site Components/apps.js";
 import Designs from "./Site Components/designs.js";
 import AboutMe from "./Site Components/aboutme.js";
 import "./website_main_pic.jpg";
-git clone https://github.com/username/username.github.io
-
-
 
 class App extends Component {
   render() {
