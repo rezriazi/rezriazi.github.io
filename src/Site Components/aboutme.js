@@ -14,7 +14,7 @@ class AboutMe extends Component {
   render() {
     return (
       <div className="sectionPage" id="aboutme">
-        <h1 className="regText">About Me</h1>
+        <h1 className="regText">ABOUT ME</h1>
         <div
           // className="col l6 m6 pull-l1 valign-wrapper center-align hide-on-med-and-down"
           id="aboutMeSection"

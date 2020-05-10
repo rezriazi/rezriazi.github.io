@@ -54,6 +54,14 @@ nav {
   align-items: center;
 }
 
+.headerText {
+  font-family: "Advent Pro", sans-serif;
+  color: rgb(139, 251, 255);
+  font-weight: 300;
+  font-size: 70px;
+  padding-left: 144px;
+}
+
 .regText {
   font-family: "Advent Pro", sans-serif;
   color: #c432a1;

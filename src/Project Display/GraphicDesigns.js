@@ -21,7 +21,7 @@ const GraphicDesigns = (props) => {
       <div
       // className="center-align section"
       >
-        <h2 className="regText">My Designs</h2>
+        <h2 className="headerText">MY DESIGNS</h2>
         <div className="container section">
           <div className="row">
             <div className="carousel col s12">

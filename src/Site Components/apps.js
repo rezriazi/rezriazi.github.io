@@ -13,23 +13,11 @@ class Apps extends Component {
   // });
   render() {
     return (
-      <div className="sectionPage" id="apps">
-        <h1 className="regText">My Apps</h1>
-        <Projects />
-        {/* <div>
-          <img
-            id="pillUpPic"
-            src={pillUpPic}
-            alt="pilluppic"
-            style={{ width: "100%" }}
-          ></img>
-          <img
-            id="pillUpPic"
-            src={pillUpPic}
-            alt="pilluppic"
-            style={{ width: "100%" }}
-          ></img>
-        </div> */}
+      <div>
+        <div className="sectionPage" id="apps">
+          <h1 className="headerText">MY APPS & GAMES</h1>
+          <Projects />
+        </div>
       </div>
     );
   }

@@ -19,35 +19,27 @@ const Projects = (props) => {
   });
 
   return (
-    <div>
-      <div className="center-align section" id="projects">
-        <div className="container section">
-          <div className="row">
-            <div className="carousel col s12" id="navigationText">
-              <ProjectItem
-                logo={pillUpPic}
-                title="Pill Up"
-                modal="#PillUpModal"
-              />
-              <ProjectItem
-                logo={planetpanicPic}
-                title="Planet Panic"
-                modal="#PlanetPanicModal"
-              />
-              <ProjectItem
-                logo={
-                  <img
-                    src={
-                      "https://cdn4.iconfinder.com/data/icons/education-3-22/66/121-512.png"
-                    }
-                  />
+    <div className="container section">
+      <div className="row">
+        <div className="carousel col s12" id="navigationText">
+          <ProjectItem logo={pillUpPic} title="Pill Up" modal="#PillUpModal" />
+          <ProjectItem
+            logo={planetpanicPic}
+            title="Planet Panic"
+            modal="#PlanetPanicModal"
+          />
+          <ProjectItem
+            logo={
+              <img
+                src={
+                  "https://cdn4.iconfinder.com/data/icons/education-3-22/66/121-512.png"
                 }
-                title="To-Do List"
-                modal="#modalTD"
-                alt="To Do Picture"
               />
-            </div>
-          </div>
+            }
+            title="To-Do List"
+            modal="#modalTD"
+            alt="To Do Picture"
+          />
         </div>
       </div>
 
@@ -81,6 +73,7 @@ const Projects = (props) => {
             </p>
             <div className="row">
               <video
+                controls
                 src={pillupVid}
                 className="responsive-vid"
                 alt="Game Demo"
@@ -105,6 +98,7 @@ const Projects = (props) => {
             </p>
             <div className="row">
               <video
+                controls
                 src={planetpanicVid}
                 className="responsive-vid"
                 alt="Game Demo"

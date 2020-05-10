@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import "./App.css";
 import { Navigation, Header } from "react-mdl";
 import Home from "./Site Components/home.js";
-import Games from "./Site Components/games.js";
 import Apps from "./Site Components/apps.js";
 import Designs from "./Site Components/designs.js";
 import AboutMe from "./Site Components/aboutme.js";
