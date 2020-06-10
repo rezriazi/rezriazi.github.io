@@ -21,15 +21,20 @@ const GraphicDesigns = (props) => {
       <div
       // className="center-align section"
       >
-        <h2 className="headerText">MY DESIGNS</h2>
+        {/* <h2 className="headerText">MY DESIGNS</h2> */}
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
         <div className="container section">
           <div className="row">
             <div className="carousel col s12">
-              <ProjectItem logo={rezsMix} modal="#modalRezMix" />
-              <ProjectItem logo={ubcTalent} modal="#modalArcade" />
-              <ProjectItem logo={planetpanicPic} modal="#modalHQL" />
+              <ProjectItem logo={rezsMix} modal="#modalRezsMix" />
+              <ProjectItem logo={ubcTalent} modal="#modalUBCGotTalent" />
+              <ProjectItem logo={planetpanicPic} modal="#modalPlanetPanic" />
               <ProjectItem logo={pillUpPic} modal="#modalPillUp" />
-              <ProjectItem logo={portraitLogo} modal="#modalHQL" />
+              <ProjectItem logo={portraitLogo} modal="#modalPortrait" />
             </div>
           </div>
         </div>

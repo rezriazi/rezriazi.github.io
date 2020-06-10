@@ -15,7 +15,7 @@ class Apps extends Component {
     return (
       <div>
         <div className="sectionPage" id="apps">
-          <h1 className="headerText">MY APPS & GAMES</h1>
+          <h1 className="appsgamesText">MY APPS & GAMES</h1>
           <Projects />
         </div>
       </div>

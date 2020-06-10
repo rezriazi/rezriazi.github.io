@@ -13,8 +13,20 @@ class AboutMe extends Component {
   }
   render() {
     return (
-      <div className="sectionPage" id="aboutme">
-        <h1 className="regText">ABOUT ME</h1>
+      <div className="AboutMePage" id="aboutme">
+        <h1 id="aboutmeText">
+          ABOUT ME
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <a
+            id="connect"
+            href="https://www.linkedin.com/in/rezriazi/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <i class="material-icons">supervisor_account</i>
+            &nbsp;CONNECT WITH ME
+          </a>
+        </h1>
         <div
           // className="col l6 m6 pull-l1 valign-wrapper center-align hide-on-med-and-down"
           id="aboutMeSection"
@@ -27,21 +39,19 @@ class AboutMe extends Component {
             alt="ProfilePic"
           />
           <div>
-            <div class="bodyText" id="aboutMeWritten">
-              <p>
-                Who am I? I'm a Computer Science student at the University of
-                British Columbia entering 3rd year, seeking Co-op opportunities
-                for Fall 2020. Most people know me for my creativity. I've been
-                creating projects from a young age in different platforms. From
-                the age of 9, I made my own blog dedicated to game hacks on what
-                was my favorite game, Moshi Monsters. I also ran a YouTube
-                channel making lyric videos which would reach 50,000 views,
-                created my own cartoon series using GoAnimate, wrote a mini book
-                series, and have composed a dozen songs on the piano. In the
-                recent years, my creativity has been focused on making my own
-                apps and games using object-orientated programming as well as
-                creating projects such as websites through scripting and
-                front-end development.
+            <div className="bodyText">
+              <p id="aboutMeWritten">
+                Who am I? I'm a Computer Science Co-op student at the University
+                of British Columbia entering 3rd year. Most people know me for
+                my creativity. I've been creating projects from a young age in
+                different platforms. From the age of 9, nI created and ran my
+                own blog, made a YouTube channel of lyric videos which would
+                reach 50,000 views, created my own cartoon series using
+                GoAnimate, wrote a mini book series, and have composed a dozen
+                songs on the piano. In the recent years, my creativity has been
+                focused on making my own apps and games using object-orientated
+                programming as well as creating projects such as websites
+                through scripting and front-end development.
               </p>
             </div>
             <div id="CollapseSection">
@@ -86,12 +96,13 @@ class AboutMe extends Component {
                   </div>
                   <div class="collapsible-body">
                     <span>
-                      I created this website using JavaScript through React,
-                      HTML, and CSS implemented this through Node.js as the open
-                      source in Visual Studio Code. Was it a simple process?
+                      I coded this website using JavaScript through React, HTML,
+                      and CSS. It is implemented through Node.js as the open
+                      source in Microsoft Visual Studio Code, and Github.io used
+                      to host the site online. Was it a simple process?
                       Unfortunately, no. It was challenging for me because I had
-                      to self-teach myself these languages, and it took a while
-                      for me to become comfortable with them. However, it was so
+                      to self-teach these languages, and it took a while for me
+                      to become comfortable with them. However, it was so
                       rewarding and I absolutely loved the process of making it!
                       In fact, I am currently working on making a website for an
                       independent construction company.
@@ -100,8 +111,12 @@ class AboutMe extends Component {
                 </li>
               </ul>
             </div>
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
           </div>
-          {/* </div> */}
         </div>
       </div>
     );

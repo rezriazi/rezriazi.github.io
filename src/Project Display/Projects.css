@@ -20,11 +20,11 @@
     #0099f7
   ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to bottom, #d8ffff, #0099f7);
-  font-size: larger;
+  font-size: large;
   align-items: center;
-  margin: 0;
-  padding: 0;
-  margin-bottom: 0;
+  margin: 5;
+  padding: 10;
+  margin-bottom: 20;
 }
 
 .responsive-vid {
@@ -38,4 +38,23 @@
   min-height: 100%;
   min-width: 100%;
   /* overflow: hidden; */
+}
+
+.make-grid {
+  align-items: center;
+}
+
+.picApps {
+  width: 10%;
+  height: 20%;
+}
+
+#appsNameText {
+  text-align: center;
+  font-size: large;
+  font-family: "Heebo", sans-serif;
+}
+
+#ToDoModal {
+  width: 40%;
 }

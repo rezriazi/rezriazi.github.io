@@ -6,7 +6,7 @@ class Home extends Component {
   render() {
     return (
       <div className="sectionPage" id="home">
-        <h1 className="regText">
+        {/* <h1 className="regText">
           <br />
           <br />
           <br />
@@ -14,7 +14,7 @@ class Home extends Component {
           SITE STILL UNDER
           <br />
           CONSTRUCTION
-        </h1>
+        </h1> */}
       </div>
     );
   }
