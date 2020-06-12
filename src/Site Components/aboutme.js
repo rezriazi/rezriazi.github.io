@@ -51,9 +51,9 @@ class AboutMe extends Component {
                 Who am I? I'm a Computer Science Co-op student at the University
                 of British Columbia entering 3rd year. Most people know me for
                 my creativity. I've been creating projects from a young age in
-                different platforms. From the age of 9, nI created and ran my
-                own blog, made a YouTube channel of lyric videos which would
-                reach 50,000 views, created my own cartoon series using
+                different platforms. From the age of 9, I created and ran my own
+                blog on WordPress, made a YouTube channel of lyric videos which
+                would reach 50,000 views, created my own cartoon series using
                 GoAnimate, wrote a mini book series, and have composed a dozen
                 songs on the piano. In the recent years, my creativity has been
                 focused on making my own apps and games using object-orientated
