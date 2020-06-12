@@ -3,6 +3,8 @@ import "../App.css";
 import "./aboutme.css";
 import M from "materialize-css";
 import aboutMePic from "../PicsandVids/AboutMePic.jpeg";
+import { fadeInUp } from "react-animations";
+import styled, { keyframes } from "styled-components";
 
 class AboutMe extends Component {
   componentDidMount() {
@@ -12,21 +14,26 @@ class AboutMe extends Component {
     });
   }
   render() {
+    const FadeUp = styled.div`
+      animation: 3s ${keyframes`${fadeInUp}`};
+    `;
     return (
       <div className="AboutMePage" id="aboutme">
-        <h1 id="aboutmeText">
-          ABOUT ME
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          <a
-            id="connect"
-            href="https://www.linkedin.com/in/rezriazi/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <i class="material-icons">supervisor_account</i>
-            &nbsp;CONNECT WITH ME
-          </a>
-        </h1>
+        <FadeUp>
+          <h1 id="aboutmeText">
+            ABOUT ME
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a
+              id="connect"
+              href="https://www.linkedin.com/in/rezriazi/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i class="material-icons">supervisor_account</i>
+              &nbsp;CONNECT WITH ME
+            </a>
+          </h1>
+        </FadeUp>
         <div
           // className="col l6 m6 pull-l1 valign-wrapper center-align hide-on-med-and-down"
           id="aboutMeSection"
