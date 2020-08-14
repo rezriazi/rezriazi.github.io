@@ -7,6 +7,7 @@ import rezsMix from "../PicsandVids/rezzmix.JPG";
 import ubcTalent from "../PicsandVids/ubctalentsized.jpg";
 import planetpanicPic from "../PicsandVids/Planet_Panic_MainPic.png";
 import portraitLogo from "../PicsandVids/portrait_logo_rez(new).png";
+import womenInScience from "../PicsandVids/ubcwomeninsciencelogo_byRez.jpg";
 
 const GraphicDesigns = (props) => {
   useEffect(() => {
@@ -30,8 +31,9 @@ const GraphicDesigns = (props) => {
         <div className="container section">
           <div className="row">
             <div className="carousel col s12">
-              <ProjectItem logo={rezsMix} modal="#modalRezsMix" />
               <ProjectItem logo={ubcTalent} modal="#modalUBCGotTalent" />
+              <ProjectItem logo={rezsMix} modal="#modalRezsMix" />
+              <ProjectItem logo={womenInScience} modal="#modalWIS" />
               <ProjectItem logo={planetpanicPic} modal="#modalPlanetPanic" />
               <ProjectItem logo={pillUpPic} modal="#modalPillUp" />
               <ProjectItem logo={portraitLogo} modal="#modalPortrait" />

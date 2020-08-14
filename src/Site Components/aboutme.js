@@ -48,17 +48,17 @@ class AboutMe extends Component {
           <div>
             <div className="bodyText">
               <p id="aboutMeWritten">
-                Who am I? I'm a Computer Science Co-op student at the University
-                of British Columbia entering 3rd year. Most people know me for
-                my creativity. I've been creating projects from a young age in
-                different platforms. From the age of 9, I created and ran my own
-                blog on WordPress, made a YouTube channel of lyric videos which
-                would reach 50,000 views, created my own cartoon series using
-                GoAnimate, wrote a mini book series, and have composed a dozen
-                songs on the piano. In the recent years, my creativity has been
-                focused on making my own apps and games using object-orientated
-                programming as well as creating projects such as websites
-                through scripting and front-end development.
+                Who am I? I'm a Computer Science student at the University of
+                British Columbia entering 3rd year, currently doing Co-op. Most
+                people know me for my creativity. I've been creating projects
+                from a young age in different platforms. From the age of 9, I
+                created and ran my own blog on WordPress, made a YouTube channel
+                of lyric videos which would reach 50,000 views, created my own
+                cartoon series using GoAnimate, wrote a mini book series, and
+                have composed a dozen songs on the piano. In the recent years,
+                my creativity has been focused on making my own apps and games
+                using object-orientated programming as well as creating projects
+                such as websites through scripting and front-end development.
               </p>
             </div>
             <div id="CollapseSection">
