@@ -48,8 +48,8 @@ class AboutMe extends Component {
           <div>
             <div className="bodyText">
               <p id="aboutMeWritten">
-                Who am I? I'm a Computer Science student at the University of
-                British Columbia entering 3rd year, currently doing Co-op. Most
+                Who am I? I'm a Full Stack Developer and a student at the
+                University of British Columbia studying Computer Science. Most
                 people know me for my creativity. I've been creating projects
                 from a young age in different platforms. From the age of 9, I
                 created and ran my own blog on WordPress, made a YouTube channel
@@ -70,13 +70,12 @@ class AboutMe extends Component {
                   <div class="collapsible-body">
                     <span>
                       My technical skills include language proficiency in Java,
-                      C++, JavaScript, CSS, and HTML. Knowledge in frameworks
-                      include React JS, and I have experience in programming
-                      environments such as Node.js, JAVAFX/GUI, intelliJ IDEA
-                      and Microsoft VS Code. My design experience is very
-                      strong, evident through being the UI, UX, and Graphic
-                      Designer for all of my individual and collaborative
-                      projects, using Photoshop and Krita.
+                      C#, C++, JavaScript, CSS, and HTML. Knowledge in
+                      frameworks include React and .NET, and I have experience
+                      in both NoSQL databases such as MongoDB and SQL. My design
+                      experience is very strong, evident through being the UI,
+                      UX, and Graphic Designer for all of my individual and
+                      collaborative projects, using Photoshop and Krita.
                     </span>
                   </div>
                 </li>
@@ -105,14 +104,11 @@ class AboutMe extends Component {
                     <span>
                       I coded this website using JavaScript through React, HTML,
                       and CSS. It is implemented through Node.js as the open
-                      source in Microsoft Visual Studio Code, and Github.io used
-                      to host the site online. Was it a simple process?
-                      Unfortunately, no. It was challenging for me because I had
-                      to self-teach these languages, and it took a while for me
-                      to become comfortable with them. However, it was so
-                      rewarding and I absolutely loved the process of making it!
-                      In fact, I am currently working on making a website for an
-                      independent construction company.
+                      source in Microsoft VS Code, and Github.io used to host
+                      the site online. This was a challenging process for me
+                      because I had to self-teach these languages, and it took a
+                      while for me to become comfortable with them. However, it
+                      was very rewarding and I absolutely loved the process!
                     </span>
                   </div>
                 </li>
