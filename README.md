@@ -1,1 +1,1 @@
-Having build error issues, site will be republished soon!
+Site temporarily moved to https://itsrezr.github.io/website
