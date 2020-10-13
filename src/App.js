@@ -5,7 +5,6 @@ import Home from "./Site Components/home.js";
 import Apps from "./Site Components/apps.js";
 import Designs from "./Site Components/designs.js";
 import AboutMe from "./Site Components/aboutme.js";
-import "./website_main_pic.jpg";
 import TechSkills from "./Site Components/techskills";
 
 class App extends Component {
@@ -32,7 +31,6 @@ class App extends Component {
                   APPS & GAMES
                 </a>
               </li>
-
               <li>
                 <a id="navigationText" href="#designs">
                   DESIGNS
@@ -46,8 +44,6 @@ class App extends Component {
             </Navigation>
           </ul>
         </Header>
-
-        {/* <video className="video" id="video" src={mainVid} autoPlay></video> */}
         <Home />
         {/* <TechSkills /> */}
         <Apps />

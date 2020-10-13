@@ -1,5 +1,6 @@
 #home {
-  background-image: url(../PicsandVids/website_main.jpg);
+  background-color: rgba(0, 195, 255, 0.76);
+  /* background-image: url(../PicsandVids/website_main.jpg); */
 }
 
 #games {
@@ -26,14 +27,13 @@
 #apps {
   background: -webkit-linear-gradient(
     to right,
-    #d8ffff,
-    #0099f7
+    #c432a1,
+    #0e0849
   ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
     to right,
     #c432a1,
-    white,
-    #0099f7
+    #0e0849
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 

@@ -18,26 +18,16 @@ const GraphicDesigns = (props) => {
   });
 
   return (
-    <div>
-      <div
-      // className="center-align section"
-      >
-        {/* <h2 className="headerText">MY DESIGNS</h2> */}
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <div className="container section">
-          <div className="row">
-            <div className="carousel col s12">
-              <ProjectItem logo={ubcTalent} modal="#modalUBCGotTalent" />
-              <ProjectItem logo={rezsMix} modal="#modalRezsMix" />
-              <ProjectItem logo={womenInScience} modal="#modalWIS" />
-              <ProjectItem logo={planetpanicPic} modal="#modalPlanetPanic" />
-              <ProjectItem logo={pillUpPic} modal="#modalPillUp" />
-              <ProjectItem logo={portraitLogo} modal="#modalPortrait" />
-            </div>
+    <div className="display-items-center">
+      <div className="container section">
+        <div className="row">
+          <div className="carousel col s12">
+            <ProjectItem logo={ubcTalent} modal="#modalUBCGotTalent" />
+            <ProjectItem logo={rezsMix} modal="#modalRezsMix" />
+            <ProjectItem logo={womenInScience} modal="#modalWIS" />
+            <ProjectItem logo={planetpanicPic} modal="#modalPlanetPanic" />
+            <ProjectItem logo={pillUpPic} modal="#modalPillUp" />
+            <ProjectItem logo={portraitLogo} modal="#modalPortrait" />
           </div>
         </div>
       </div>

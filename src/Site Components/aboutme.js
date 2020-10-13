@@ -71,11 +71,11 @@ class AboutMe extends Component {
                     <span>
                       My technical skills include language proficiency in Java,
                       C#, C++, JavaScript, CSS, and HTML. Knowledge in
-                      frameworks include React and .NET, and I have experience
-                      in both NoSQL databases such as MongoDB and SQL. My design
-                      experience is very strong, evident through being the UI,
-                      UX, and Graphic Designer for all of my individual and
-                      collaborative projects, using Photoshop and Krita.
+                      frameworks and libraries include React and .NET, and I
+                      have experience in databases such as SQL and NoSQL
+                      (MongoDB). My design experience is very strong, evident
+                      through being the UI, UX, and Graphic Designer for all of
+                      my individual and collaborative projects.
                     </span>
                   </div>
                 </li>
@@ -102,13 +102,10 @@ class AboutMe extends Component {
                   </div>
                   <div class="collapsible-body">
                     <span>
-                      I coded this website using JavaScript through React, HTML,
-                      and CSS. It is implemented through Node.js as the open
-                      source in Microsoft VS Code, and Github.io used to host
-                      the site online. This was a challenging process for me
-                      because I had to self-teach these languages, and it took a
-                      while for me to become comfortable with them. However, it
-                      was very rewarding and I absolutely loved the process!
+                      I coded this website using React with languages
+                      JavaScript, HTML, and CSS. It is implemented through
+                      Node.js in Microsoft Visual Studio Code, and Github.io
+                      used to host the site's URL online.
                     </span>
                   </div>
                 </li>

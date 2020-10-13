@@ -54,16 +54,6 @@ nav {
   align-items: center;
 }
 
-.appsgamesText {
-  font-family: "Heebo", sans-serif;
-  background: linear-gradient(to left, #ff60d7, #0099f7);
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-weight: 300;
-  font-size: 70px;
-  padding-left: 144px;
-}
-
 #aboutmeText {
   font-family: "Heebo", sans-serif;
   color: #c432a1;

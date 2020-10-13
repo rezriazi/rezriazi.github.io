@@ -7,7 +7,6 @@ class Design extends Component {
     return (
       <div>
         <div className="sectionPage" id="designs">
-          {/* <h1 className="regText">My Designs</h1> */}
           <MyDesigns />
         </div>
       </div>

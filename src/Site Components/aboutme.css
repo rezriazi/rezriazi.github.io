@@ -3,13 +3,13 @@
   background: #1c92d2; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to right,
-    #f2fcfe,
-    #1c92d2
+    #131a43,
+    #321a5c
   ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
     to right,
-    #f2fcfe,
-    #1c92d2
+    #131a43,
+    #321a5c
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
@@ -27,6 +27,7 @@
   align-items: flex-start;
   display: flex;
   justify-content: center;
+  color: rgb(168, 213, 255);
 
   /* padding: 0 16px 16px; */
 }
@@ -51,7 +52,7 @@
 
 #connect {
   font-size: 25px;
-  color: #5a017e;
+  color: #2382ff;
 }
 
 .AboutMePage {
@@ -60,6 +61,7 @@
   background-position: center center;
   width: 100%;
   height: fit-content;
+  min-height: 100vh;
   margin: 0;
   padding-top: 20px;
   padding-left: 70px;
@@ -67,7 +69,6 @@
   display: block;
   position: relative;
   text-align: left;
-  min-height: 100%;
   min-width: 100%;
   overflow: hidden;
 }

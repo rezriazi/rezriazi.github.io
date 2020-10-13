@@ -19,7 +19,6 @@ const Projects = (props) => {
   });
 
   return (
-    // <div className="center-align section" id="projects">
     <div className="container section">
       <div className="row">
         <div
@@ -66,7 +65,7 @@ const Projects = (props) => {
               Use Left/Right/Up/Down arrows to move & SPACE bar to pause game
             </p>
 
-            <p>
+            {/* <p>
               Source code: &nbsp;
               <a
                 href="https://github.com/rezriazi/pillup"
@@ -75,7 +74,7 @@ const Projects = (props) => {
               >
                 Github Link
               </a>
-            </p>
+            </p> */}
             <div className="row">
               <video
                 controls
