@@ -1,1 +1,1 @@
-Site temporarily moved. [Click here to view website!](https://itsrezr.github.io/website)
+Site URL temporarily moved. [Click here to view Rez's Portfolio!](https://itsrezr.github.io/website)
